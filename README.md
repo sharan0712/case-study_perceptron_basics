@@ -1,1 +1,1 @@
-# case-study_perceptron_basics
+This case study involves the practical implementation of a single layered preceptron to understand the basics of neural network. Each step is described and functions named are descriptive to help beginner to neural network understand.
