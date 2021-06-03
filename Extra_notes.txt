@@ -1,0 +1,27 @@
+IN Polt() fucntion
+
+arange() is one of the array creation routines based on numerical ranges. It creates an instance of ndarray with evenly spaced values and returns the reference to it.
+
+Syntax: numpy.arange([start, ]stop, [step, ], dtype=None)
+
+The first three parameters determine the range of the values, while the fourth specifies the type of the elements:
+
+1.start is the number (integer or decimal) that defines the first value in the array.
+2.stop is the number that defines the end of the array and isn’t included in the array.
+3.step is the number that defines the spacing (difference) between each two consecutive values in the array and defaults to 1.
+dtype is the type of the elements of the output array and defaults to None.    
+
+The xticks() and yticks() function takes a list object as argument. The elements in the list denote the positions on corresponding action where ticks will be displayed.                                                                                                                            
+Matplotlib.pyplot.legend()
+A legend is an area describing the elements of the graph. In the matplotlib library, there’s a function called legend() which is used to Place a legend on the axes.
+
+Syntax-matplotlib.pyplot.legend([“blue”, “green”], bbox_to_anchor=(0.75, 1.15), ncol=2)
+
+The Following are some more attributes of function legend() :
+
+shadow: [None or bool] Whether to draw a shadow behind the legend.It’s Default value is None.
+markerscale: [None or int or float] The relative size of legend markers compared with the originally drawn ones.The Default is None.
+numpoints: [None or int] The number of marker points in the legend when creating a legend entry for a Line2D (line).The Default is None.
+fontsize: The font size of the legend.If the value is numeric the size will be the absolute font size in points.
+facecolor: [None or “inherit” or color] The legend’s background color.
+edgecolor: [None or “inherit” or color] The legend’s background patch edge color.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
